@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c605951f-6303-4db3-bd0b-027b91db11e5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 141.605 97.155) (size 32.639 26.543) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7a8079e2-ad4f-48e6-b8a8-307d02cf6d8e)
+    (property "Sheetname" "Pi Connections" (at 141.605 96.4434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pi.kicad_sch" (at 141.605 124.2826 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pcm5100-pi"
+        (path "/c605951f-6303-4db3-bd0b-027b91db11e5" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 141.097 61.722) (size 32.639 26.543) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7dbe8ce9-e4fc-4603-bd94-d60b88524c7e)
+    (property "Sheetname" "Power" (at 141.097 61.0104 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 141.097 88.8496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pcm5100-pi"
+        (path "/c605951f-6303-4db3-bd0b-027b91db11e5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 102.743 61.595) (size 32.639 26.543) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf9e31c2-25ae-4b7c-8fb2-42cfcf21e37c)
+    (property "Sheetname" "Connections" (at 102.743 60.8834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connections.kicad_sch" (at 102.743 88.7226 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pcm5100-pi"
+        (path "/c605951f-6303-4db3-bd0b-027b91db11e5" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 102.997 97.282) (size 32.639 26.543) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9c3811f-d888-459e-9254-ac1b3172ae8a)
+    (property "Sheetname" "Audio" (at 102.997 96.5704 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 102.997 124.4096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pcm5100-pi"
+        (path "/c605951f-6303-4db3-bd0b-027b91db11e5" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
