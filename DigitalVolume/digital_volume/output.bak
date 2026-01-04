@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+LIBS:digital_volume-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:NE5532 U?
+U 1 1 5FAF0B57
+P 5300 3050
+AR Path="/5FAF0B57" Ref="U?"  Part="1" 
+AR Path="/5FAE8F33/5FAF0B57" Ref="U4"  Part="1" 
+AR Path="/5FB0AE4A/5FAF0B57" Ref="U?"  Part="1" 
+F 0 "U4" H 5300 3417 50  0000 C CNN
+F 1 "NE5532" H 5300 3326 50  0000 C CNN
+F 2 "" H 5300 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5300 3050 50  0001 C CNN
+	1    5300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U?
+U 2 1 5FAF0B5D
+P 5300 3850
+AR Path="/5FAF0B5D" Ref="U?"  Part="2" 
+AR Path="/5FAE8F33/5FAF0B5D" Ref="U4"  Part="2" 
+AR Path="/5FB0AE4A/5FAF0B5D" Ref="U?"  Part="2" 
+F 0 "U4" H 5300 4217 50  0000 C CNN
+F 1 "NE5532" H 5300 4126 50  0000 C CNN
+F 2 "" H 5300 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5300 3850 50  0001 C CNN
+	2    5300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 3400
+Wire Wire Line
+	4850 3400 5750 3400
+Wire Wire Line
+	5750 3400 5750 3050
+Wire Wire Line
+	5750 3050 5600 3050
+Wire Wire Line
+	5000 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 4200
+Wire Wire Line
+	4850 4200 5750 4200
+Wire Wire Line
+	5750 4200 5750 3850
+Wire Wire Line
+	5750 3850 5600 3850
+$Comp
+L Device:CP C?
+U 1 1 5FAF0B71
+P 6150 3050
+AR Path="/5FAF0B71" Ref="C?"  Part="1" 
+AR Path="/5FAE8F33/5FAF0B71" Ref="C11"  Part="1" 
+AR Path="/5FB0AE4A/5FAF0B71" Ref="C?"  Part="1" 
+F 0 "C11" V 6405 3050 50  0000 C CNN
+F 1 "47u" V 6314 3050 50  0000 C CNN
+F 2 "" H 6188 2900 50  0001 C CNN
+F 3 "~" H 6150 3050 50  0001 C CNN
+	1    6150 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5FAF0B77
+P 6150 3850
+AR Path="/5FAF0B77" Ref="C?"  Part="1" 
+AR Path="/5FAE8F33/5FAF0B77" Ref="C12"  Part="1" 
+AR Path="/5FB0AE4A/5FAF0B77" Ref="C?"  Part="1" 
+F 0 "C12" V 6405 3850 50  0000 C CNN
+F 1 "47u" V 6314 3850 50  0000 C CNN
+F 2 "" H 6188 3700 50  0001 C CNN
+F 3 "~" H 6150 3850 50  0001 C CNN
+	1    6150 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 2950 5000 2950
+Wire Wire Line
+	4350 3750 5000 3750
+$Comp
+L Amplifier_Operational:NE5532 U?
+U 3 1 5FAF56FE
+P 5000 5300
+AR Path="/5FAF56FE" Ref="U?"  Part="3" 
+AR Path="/5FAE8F33/5FAF56FE" Ref="U4"  Part="3" 
+AR Path="/5FB0AE4A/5FAF56FE" Ref="U?"  Part="3" 
+F 0 "U4" H 4958 5346 50  0000 L CNN
+F 1 "NE5532" H 4958 5255 50  0000 L CNN
+F 2 "" H 5000 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5000 5300 50  0001 C CNN
+	3    5000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5FAF5704
+P 5450 5300
+AR Path="/5FAF5704" Ref="C?"  Part="1" 
+AR Path="/5FAE8F33/5FAF5704" Ref="C9"  Part="1" 
+AR Path="/5FB0AE4A/5FAF5704" Ref="C?"  Part="1" 
+F 0 "C9" H 5568 5346 50  0000 L CNN
+F 1 "100u" H 5568 5255 50  0000 L CNN
+F 2 "" H 5488 5150 50  0001 C CNN
+F 3 "~" H 5450 5300 50  0001 C CNN
+	1    5450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FAF570A
+P 5850 5300
+AR Path="/5FAF570A" Ref="C?"  Part="1" 
+AR Path="/5FAE8F33/5FAF570A" Ref="C10"  Part="1" 
+AR Path="/5FB0AE4A/5FAF570A" Ref="C?"  Part="1" 
+F 0 "C10" H 5965 5346 50  0000 L CNN
+F 1 "100n" H 5965 5255 50  0000 L CNN
+F 2 "" H 5888 5150 50  0001 C CNN
+F 3 "~" H 5850 5300 50  0001 C CNN
+	1    5850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5000 4900 4900
+Wire Wire Line
+	5850 4900 5850 5150
+Wire Wire Line
+	5850 5450 5850 5700
+Wire Wire Line
+	5850 5700 5450 5700
+Wire Wire Line
+	4900 5700 4900 5600
+Wire Wire Line
+	5450 5450 5450 5700
+Connection ~ 5450 5700
+Wire Wire Line
+	5450 5700 4900 5700
+Wire Wire Line
+	5450 5150 5450 4900
+Wire Wire Line
+	4900 4900 5450 4900
+Connection ~ 5450 4900
+Wire Wire Line
+	5450 4900 5850 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF571C
+P 5450 5700
+AR Path="/5FAF571C" Ref="#PWR?"  Part="1" 
+AR Path="/5FAE8F33/5FAF571C" Ref="#PWR0108"  Part="1" 
+AR Path="/5FB0AE4A/5FAF571C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 5450 5450 50  0001 C CNN
+F 1 "GND" H 5455 5527 50  0000 C CNN
+F 2 "" H 5450 5700 50  0001 C CNN
+F 3 "" H 5450 5700 50  0001 C CNN
+	1    5450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FAF5722
+P 5450 4900
+AR Path="/5FAF5722" Ref="#PWR?"  Part="1" 
+AR Path="/5FAE8F33/5FAF5722" Ref="#PWR0109"  Part="1" 
+AR Path="/5FB0AE4A/5FAF5722" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0109" H 5450 4750 50  0001 C CNN
+F 1 "+5V" H 5465 5073 50  0000 C CNN
+F 2 "" H 5450 4900 50  0001 C CNN
+F 3 "" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 2950 0    50   Input ~ 0
+RIGHT_VOL_OUT
+Text GLabel 4350 3750 0    50   Input ~ 0
+LEFT_VOL_OUT
+Wire Wire Line
+	6000 3850 5750 3850
+Connection ~ 5750 3850
+Wire Wire Line
+	6000 3050 5750 3050
+Connection ~ 5750 3050
+Wire Wire Line
+	6300 3050 6600 3050
+Wire Wire Line
+	6300 3850 6600 3850
+Text GLabel 6600 3050 2    50   Output ~ 0
+RIGHT_OUT
+Text GLabel 6600 3850 2    50   Output ~ 0
+LEFT_OUT
+$EndSCHEMATC

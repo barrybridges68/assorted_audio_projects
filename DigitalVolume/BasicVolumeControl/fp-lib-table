@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "DigitalVolumeV2")(type "KiCad")(uri "C:/Users/barry/Documents/Projects/DigitalVolume/DigitalVolumeV2.pretty")(options "")(descr ""))
+  (lib (name "3.5mmJack")(type "KiCad")(uri "${KIPRJMOD}/3.5mmJack.pretty")(options "")(descr ""))
+)

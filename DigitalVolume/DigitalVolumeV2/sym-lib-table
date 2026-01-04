@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Nuvoton")(type "Legacy")(uri "${KIPRJMOD}/Nuvoton.lib")(options "")(descr ""))
+  (lib (name "3.5mmJack")(type "Legacy")(uri "${KIPRJMOD}/pj-3136-3.5mm-jack.lib")(options "")(descr ""))
+)

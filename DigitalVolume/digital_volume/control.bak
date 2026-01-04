@@ -1,0 +1,83 @@
+EESchema Schematic File Version 4
+LIBS:digital_volume-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-WROOM-32 U7
+U 1 1 5FB0B6A8
+P 5850 3500
+F 0 "U7" H 5450 5000 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 5400 4900 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 5850 2000 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 5550 3550 50  0001 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 5FB1E881
+P 5850 2100
+F 0 "#PWR0112" H 5850 1950 50  0001 C CNN
+F 1 "+3V3" H 5865 2273 50  0000 C CNN
+F 2 "" H 5850 2100 50  0001 C CNN
+F 3 "" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FB1EFDC
+P 5850 4900
+F 0 "#PWR0113" H 5850 4650 50  0001 C CNN
+F 1 "GND" H 5855 4727 50  0000 C CNN
+F 2 "" H 5850 4900 50  0001 C CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+	1    5850 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5250 2300
+NoConn ~ 5250 2500
+NoConn ~ 5250 2600
+NoConn ~ 5250 3500
+NoConn ~ 5250 3600
+NoConn ~ 5250 3700
+NoConn ~ 5250 3800
+NoConn ~ 5250 3900
+NoConn ~ 5250 4000
+NoConn ~ 6450 4600
+NoConn ~ 6450 4500
+NoConn ~ 6450 4400
+NoConn ~ 6450 4300
+NoConn ~ 6450 4200
+NoConn ~ 6450 4100
+NoConn ~ 6450 4000
+NoConn ~ 6450 3900
+NoConn ~ 6450 3800
+NoConn ~ 6450 3700
+NoConn ~ 6450 3600
+NoConn ~ 6450 3500
+NoConn ~ 6450 3400
+NoConn ~ 6450 3300
+NoConn ~ 6450 3200
+NoConn ~ 6450 3100
+NoConn ~ 6450 3000
+NoConn ~ 6450 2900
+NoConn ~ 6450 2300
+NoConn ~ 6450 2400
+NoConn ~ 6450 2500
+NoConn ~ 6450 2600
+NoConn ~ 6450 2700
+NoConn ~ 6450 2800
+$EndSCHEMATC

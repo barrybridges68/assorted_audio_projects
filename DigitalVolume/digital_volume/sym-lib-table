@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Nuvoton)(type Legacy)(uri ${KIPRJMOD}/Nuvoton.lib)(options "")(descr ""))
+  (lib (name digital_volume-rescue)(type Legacy)(uri ${KIPRJMOD}/digital_volume-rescue.lib)(options "")(descr ""))
+)
